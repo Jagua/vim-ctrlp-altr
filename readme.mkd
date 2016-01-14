@@ -1,0 +1,41 @@
+# vim-ctrlp-altr
+
+*vim-ctrlp-altr* is a Vim plugin. This plugin is a source for *ctrlp.vim* to deal with *vim-altr*.
+
+This plugin depends on:
+* [vim-altr](https://github.com/kana/vim-altr)
+* [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
+
+Latest: https://github.com/Jagua/vim-ctrlp-altr
+
+
+
+## Install
+
+
+### A) vim-plug
+
+```vim
+Plug 'Jagua/vim-ctrlp-altr'
+```
+
+
+### B) NeoBundle
+
+```vim
+NeoBundle 'Jagua/vim-ctrlp-altr'
+```
+
+
+## Key mappings
+
+```vim
+" prefix for CtrlP
+nnoremap [ctrlp] <Nop>
+nmap <Space>p [ctrlp]
+
+" for vim-ctrlp-altr
+nnoremap [ctrlp]al :<C-u>CtrlPAltr<CR>
+```
+
+Typing `<Space>pal`, starts *vim-ctrlp-altr*.
