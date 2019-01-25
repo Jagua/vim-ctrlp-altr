@@ -1,6 +1,6 @@
 *ctrlp-altr.txt*  ctrlp source: altr
 
-Version: 0.1.0
+Version: 0.1.1
 Author: Jagua
 License: MIT License (http://opensource.org/licenses/mit-license.php)
 
@@ -80,6 +80,10 @@ EXAMPLES                                                 *ctrlp-altr-examples*
 
 ==============================================================================
 CHANGELOG                                               *ctrlp-altr-changelog*
+
+0.1.1  2019-01-26
+       - Rewrite logic.
+       - Use bufname instead of full path.
 
 0.1.0  2016-01-14
        - Initial version.
