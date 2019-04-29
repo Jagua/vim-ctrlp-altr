@@ -17,7 +17,7 @@ let s:var = {
 \ 'init' : 'ctrlp#altr#init(s:crbufnr)',
 \ 'accept' : 'ctrlp#acceptfile',
 \ 'lname' : 'altr',
-\ 'sname' : 'altr',
+\ 'sname' : 'alt',
 \ 'type' : 'path',
 \ }
 
